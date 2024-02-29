@@ -45,7 +45,7 @@ class _RequestPageState extends State<RequestPage> {
                 iconData: Icons.location_on_outlined,
                 coloricons: kPrimaryColor,
                 fontWeight: FontWeight.w400,
-                color: Colors.black26,
+                color: Colors.black26, 
                 hint: 'city',
                 validator: (value) {
                   if (value == "") {
